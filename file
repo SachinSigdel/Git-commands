@@ -1,0 +1,15 @@
+git init ====>initializing the git.
+git config --global user.email "<email>" ====>adding email to the git.
+git config --global user.name "<name>" ====>adding user name.
+git config --list ====>listing the user name and emails.
+git status ====> checking the status of the git.
+git add <filename> ====>staging the file from the git to staging area.
+git add . ====>staging all available files from the git in the staging area.
+git commit -m "" ====>comming/saving changes of the file in the git with comments.
+git log ====>checking the commit log.
+git log --oneline ====> checking the commit log in one line.
+git ls-files ====>checking the files in the git directory.
+git checkout <hash> ====>going back to the targeted commit.
+git checkout master ====>going to the most recent commit. 
+git remote add origin https://github.com/Sachin-Sigdel08/Sakumo979.git ====> create connections to other repositories.
+git remote --verbose/git remote -v ====>to check urls 
