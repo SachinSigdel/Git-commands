@@ -12,10 +12,16 @@ git ls-files ====>checking the files in the git directory.
 git checkout <hash> ====>going back to the targeted commit.
 git checkout master ====>going to the most recent commit. 
 git remote add origin https://github.com/Sachin-Sigdel08/Sakumo979.git ====> create connections to other repositories.
+git push origin master ====>to push the files to git repository.
+git pull origin master ====>to pull the files from the git repository.
 git remote --verbose/git remote -v ====>to check urls 
 git restore <filename> ===> to discard changes in working directory
-git restore --staged <filename>  ===> to unstagegit branch <branchname> ====>to create a branch.
+git restore --staged <filename>  ===> to unstage 
+git branch <branchname> ====>to create a branch.
 git branch ====>to view available branches.
 git checkout <branchname> ====>to switch between branches.
 git merge <branchname> ====>merging the branches in the git.
 git commit -am <message> ====>to stage and commit at the same time.
+git reset --hard <hash> ====>resets to targeted commit.
+git branch -d <branchname> ====>to delete a branch.(only merged branch).
+git branch -D <branchname. ====>to delete a branch.(not merged too).
