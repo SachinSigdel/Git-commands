@@ -20,8 +20,13 @@ git restore --staged <filename>  ===> to unstage
 git branch <branchname> ====>to create a branch.
 git branch ====>to view available branches.
 git checkout <branchname> ====>to switch between branches.
-git merge <branchname> ====>merging the branches in the git.
+git merge <branchname> ====>merging the branches in the git with same hash.
 git commit -am <message> ====>to stage and commit at the same time.
 git reset --hard <hash> ====>resets to targeted commit.
 git branch -d <branchname> ====>to delete a branch.(only merged branch).
 git branch -D <branchname. ====>to delete a branch.(not merged too).
+git merge --no-ff <branchname> ====>to merge branches with diff hash.
+git branch --merged ====>to view merged branches.
+git branch --no-merged ====>to view branches which are not merged to master.
+git push origin <branchname> ====>to push the branch to git repo.(you'll need to checkout to the branch first).
+git remote show origin ====>to view branches available in the git repo(remote).
