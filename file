@@ -30,3 +30,4 @@ git branch --merged ====>to view merged branches.
 git branch --no-merged ====>to view branches which are not merged to master.
 git push origin <branchname> ====>to push the branch to git repo.(you'll need to checkout to the branch first).
 git remote show origin ====>to view branches available in the git repo(remote).
+rm -rf .git ====>to remove git initialization.
